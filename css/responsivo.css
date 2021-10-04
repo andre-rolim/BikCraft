@@ -1,0 +1,160 @@
+@media only screen and (min-width: 788px) and (max-width: 979px){
+   /** QUALIDADE HOME **/
+   .qualidade::after{
+      left: 68px;
+   }
+
+   .qualidade-lista li{
+      padding: 0 10px;
+   }
+
+   /** PRODUTOS **/
+   .produto-item h2{
+      top: -150px;
+      margin-bottom: -36px;
+    }
+
+    .produto-icone{
+       padding: 31px 0;
+    }
+
+    .produto-info p{
+       font-size: 14px;
+       line-height: 20px;
+       height: 122px;
+       padding: 20px 30px;
+    }
+
+    .produto-info ul li{
+      width: 180px;
+      height: 49px;
+    }
+
+   /** FOOTER **/
+   .footer-sociais ul li a{
+      border: 3px solid #fec63e;
+      display: block;
+      padding: 6px;
+   }
+   .footer-sociais ul li a img{
+      width: 26px;
+      height: 26px;
+   }
+/** fim do estilo para tablet **/
+}
+/** inicio do estilo para telefone **/
+@media only screen and (max-width: 787px){
+   /** HEADER **/
+   .header{
+      position: relative;
+      padding-bottom: 0;
+   }
+
+   .header img{
+      margin: 0 auto 10px auto;
+   }
+
+   .header_menu{
+      text-align: center;
+   }
+
+   .header_menu ul li{
+      margin: 5px;
+   }
+
+   .header_menu ul li a{
+      border: 4px solid black;
+      width: 136px;
+      display: block;
+      float: left;
+   }
+
+   .header_menu ul li a:hover{
+      border: 4px solid white;
+      color: white;
+   }
+
+   .header_menu ul li a.menu-ativo{
+      border-bottom: 4px solid white;
+   }
+
+   /** INTRODUCAO **/
+
+   .introducao{
+      margin-top: 0;
+      padding-top: 40PX;
+      background: url("../img/bg-mobile.jpg") center no-repeat;
+      background-size: cover;
+   }
+
+   .introducao h1{
+      font-size: 36px;
+   }
+   /** INTRODUCAO INTERNA **/
+   .introducao-interna{
+      margin-top: 0;
+   }
+
+   /** CALL **/
+   .call{
+      padding: 10px;
+   }
+
+   /** QUALIDADE **/
+   .qualidade::after{
+      display: none;
+   }
+
+   /** SOBRE **/
+   .missao-sobre p{
+      font-size: 14px;
+      line-height: 20px;
+      padding-right: 0;
+   }
+
+   .missao-sobre ul li{
+      font-size: 14px;
+      line-height: 25px;
+   }
+
+   /** PRODUTOS **/
+   .produto-item h2{
+      top: -100px;
+      margin-bottom: -58px;
+    }
+
+    .produto-icone{
+       padding: 31px 0;
+    }
+
+    .produto-info p{
+       font-size: 14px;
+       line-height: 20px;
+       height: auto;
+       padding: 20px 30px;
+    }
+
+    .produto-info ul li{
+      width: 149px;
+      height: 49px;
+      font-size: 14px;
+      line-height: 20px;
+      padding-top: 14px;
+    }
+
+    /** PAGINA PRODUTOS > ORÇAMENTO **/
+    .form{
+       padding-right: 0;
+    }
+
+    .orcamento_dados ul{
+       padding-right: 0;
+    }
+
+    /** PAGINA CONTATO > ORÇAMENTO **/
+    .contato-form{
+      padding-right: 0;
+      margin-bottom: 40px;
+    }
+
+}
